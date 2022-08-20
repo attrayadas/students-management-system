@@ -3,7 +3,7 @@
 ![banner](https://user-images.githubusercontent.com/96123861/185758547-23d6e791-cb1d-4434-9266-2f1e43e259d1.png)
 
 
-It is a console-based **Java Application** which helps in managing enrollment and balance information for the students.
+It is a console-based ***Java Application*** which helps in managing enrollment and balance information for the students.
 
 **The Application does the following:**
 
