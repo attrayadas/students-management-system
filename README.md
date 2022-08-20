@@ -1,7 +1,6 @@
 
 # Student Management System
-![banner](https://user-images.githubusercontent.com/96123861/185758547-23d6e791-cb1d-4434-9266-2f1e43e259d1.png)
-
+![banner (1)](https://user-images.githubusercontent.com/96123861/185760883-f9655008-757e-46a9-bf63-210d6ddbe8a8.png)
 
 It is a console-based ***Java Application*** which helps in managing enrollment and balance information for the students.
 
