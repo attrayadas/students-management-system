@@ -26,7 +26,7 @@ public class Student {
 		try {
 			this.gradeYear = sc.nextInt();
 			setStudentId();
-			enroll();
+			this.enroll();
 		} catch (Exception e) {
 			System.out.println("Invalid Entry");
 		}
@@ -51,7 +51,7 @@ public class Student {
 				break;
 			}
 		} while (true);
-		payTuition();
+		this.payTuition();
 	}
 
 	// View Balance
@@ -61,14 +61,14 @@ public class Student {
 
 	// Pay Tuition
 	public void payTuition() {
-		viewBalance();
+		this.viewBalance();
 		System.out.print("Enter the amount you want to pay : $");
 		Scanner in = new Scanner(System.in);
 		double payment = in.nextDouble();
 		tuitionBalance = tuitionBalance - payment;
 		System.out.println("-------------------------------------------");
 		System.out.println("** Thank you for your payment of $" + payment + " **");
-		viewBalance();
+		this.viewBalance();
 		System.out.println("-------------------------------------------");
 	}
 
